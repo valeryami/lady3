@@ -5,10 +5,10 @@ CONFIG -= qt
 
 SOURCES += \
     main.cpp \
-    myfunc.cpp
+    sudoku.cpp
 
 HEADERS += \
-    myfunc.hpp
+    sudoku.hpp
 
 QMAKE_CFLAGS += -Wall -Wextra -Werror
 

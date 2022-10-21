@@ -1,12 +1,9 @@
-#include "myfunc.hpp"
+#include "sudoku.hpp"
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    int select[] = {10};
-    
-    int size = sizeof(select)/4;
-    
-    tictactoe(select, size);
+    int masking_cells = 10;
+    handler(masking_cells, cin);
 }

@@ -1,4 +1,4 @@
-#include "test_tictactoe.h"
+#include "sudoku_test.h"
 #include <gtest/gtest.h>
 
 int main(int argc, char *argv[])

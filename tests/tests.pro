@@ -16,10 +16,10 @@ LIBS += -lgcov
 
 
 HEADERS +=     \
-    ../app/myfunc.hpp \
-    test_tictactoe.h
+    ../app/sudoku.hpp \
+    sudoku_test.h
 
 SOURCES +=     main.cpp \
-    ../app/myfunc.cpp
+    ../app/sudoku.cpp
 
 INCLUDEPATH += ../app
